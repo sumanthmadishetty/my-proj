@@ -54,7 +54,7 @@ const config = {
       },
       {
         test: /\.scss$/,
-        use: ["style-loader", "css-loader", "sass-loader"]
+        use: ["style-loader", "css-loader",{ loader: "resolve-url-loader", options: { engine: 'rework' } }, "sass-loader"]
       },
       {
         test: /\.woff2?(\?v=[0-9]\.[0-9]\.[0-9])?$/,

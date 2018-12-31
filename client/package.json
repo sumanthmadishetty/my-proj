@@ -57,7 +57,7 @@
     "reactstrap": "^7.0.0",
     "redux": "^4.0.1",
     "redux-thunk": "^2.3.0",
-    "resolve-url-loader": "^3.0.0",
+    "resolve-url-loader": "^2.3.0",
     "sass-loader": "7.1.0",
     "slick-carousel": "^1.8.1",
     "style-loader": "0.23.1",

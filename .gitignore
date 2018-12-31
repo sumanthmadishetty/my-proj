@@ -20,10 +20,10 @@
 # Ignore uploaded files in development
 /storage/*
 !/storage/.keep
-
+/client/node_modules
 /node_modules
 /yarn-error.log
-
+/client/yarn.lock
 /public/assets
 .byebug_history
 
